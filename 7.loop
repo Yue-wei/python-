@@ -1,5 +1,5 @@
 import turtle
-turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
+turtle.bgcolor('black') 
 amy = turtle.Turtle()
 amy.color("yellow")
 for side in [1, 2, 3, 4, 5]:
@@ -8,7 +8,32 @@ for side in [1, 2, 3, 4, 5]:
 
 
 import turtle
-turtle.bgcolor('black') # 改变画布背景颜色为黑色，不要修改这句话
+turtle.bgcolor('black') 
+juno = turtle.Turtle()
+juno.color("white")
+
+for side in [1, 2, 3]:
+    juno.forward(100)
+    juno.left(120)
+    
+    
+    
+import turtle
+turtle.bgcolor('black') 
+juno = turtle.Turtle()
+juno.color("white")
+
+juno.forward(100)
+juno.left(120)
+juno.forward(100)
+juno.left(120)
+juno.forward(100)
+juno.left(120)
+
+
+
+import turtle
+turtle.bgcolor('black') 
 juno = turtle.Turtle()
 juno.color("white")
 
