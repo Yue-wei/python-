@@ -1,0 +1,34 @@
+If you have a turtle named t, then …
+ Moving
+t.forward(n) tells the turtle to move forward by n pixels.
+t.back(n) tells it to move backward by n pixels.
+               n can also be a negative number, in which case the movement will be reversed.
+               t.forward(100) and t.back(-100) do the same thing.
+t.speed(s) Sets the turtle's speed. Speed 0 is fastest.
+
+Turning
+t.right(a) tells it to turn right by an angle of a degrees.
+t.left(a) tells it to turn left by an angle of a degrees.
+               a can also be a negative number, in which case the turn will be reversed.
+               t.left(-45) and t.right(45) do the same thing.
+               The turtle starts out in the middle of the canvas, pointed to your right.
+               Turns are always relative to the direction the turtle is currently facing
+
+ Drawing
+t.penup() tells it to pick its pen up, so it doesn't draw when it moves.
+t.pendown() tells it to put its pen down again, so it does draw.
+t.width(n) changes the width of the turtle's pen to be n pixels wide.
+t.color(c) changes its color to a particular named color, where c is a string (or a variable
+                 that has a string in it).
+                 Examples:
+                  t.color("blue")
+                  pretty_color = "blue"
+                  t.color(pretty_color)
+                  Colors are named with strings such as "red", "white", or "chartreuse".
+                  You can also use hex color codes such as "#ff0000", "#ffffff", or
+                  "#7fff00".
+                  The turtle starts out with its pen down, colored "black", and 1 pixel wide.
+
+Hiding and showing
+t.hideturtle() tells the turtle to hide itself so only the drawing shows.
+t.showturtle() tells it to un-hide itself.
